@@ -8,6 +8,7 @@ const app = express();
 const port= process.env.PORT || 8000;
 // convert req.body object to json object / it is a middelware
 app.use(express.json());
+// app.use(bodyParser.json());
 app.use(studentRouter);
 
 // app.get("/", (req,res)=>{

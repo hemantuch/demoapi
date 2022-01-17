@@ -1,0 +1,15 @@
+{
+    "client": {
+        "id": "538259134176-llil1n72498421u3qa2t4srst0aq67ot.apps.googleusercontent.com",
+        "secret": "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",
+        "redirect": "http://localhost:6000"
+    },
+
+   
+    "credentials": {
+        "access_token": "your access_token",
+        "token_type": "Bearer",
+        "expires_in": 3600,
+        "refresh_token": "your refresh_token"
+    }
+}
